@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+
+
+nav {
+    display: flex;
+    
+    a.navbar-brand {
+        margin: 1rem;
+    }
+    ul {
+        margin: 1rem;
+        a {
+            color: rgb(122, 122, 122);
+            transition: all 0.25s ease;
+        }
+        a.active {
+            color: #D48000;
+        }
+}
+    }
+        
+
+a.nav-link:hover {
+    color: #D48000;
+}
+
+section.slide {
+    div.carousel-item {
+                    width: 100%;
+                    height: 30vw;
+                    overflow: hidden;
+        img {
+            width: 100%;
+            position: absolute;
+            top: 30%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    
+}
+
+
+
+
+
+
