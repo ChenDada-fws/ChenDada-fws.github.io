@@ -48,7 +48,6 @@ section.first {
             transform: translate(-50%, -50%);
         }
     }
-    
 }
 
 // 預設的button會多出來一點點
@@ -83,7 +82,7 @@ section.second {
 
 
 footer {
-    background-color: #ffdaa2;
+    background-color: #ffd595;
     div.container {
         ul {
             li {
@@ -94,7 +93,7 @@ footer {
         }
     }
     span {
-        color:rgb(161, 161, 161);
+        color:rgb(141, 141, 141);
     }
 }
 
@@ -131,3 +130,27 @@ footer {
     }
   }
   
+
+
+// 關於野聲頁面
+img#muntjac {
+    object-fit: cover;
+    object-position: 60% bottom;
+}
+
+img#boss {
+    object-fit: cover;
+    object-position: 60% bottom;
+}
+
+a.google-sheet {
+    color: white !important;
+}
+
+h5.my-card-active {
+    color: $theme-color;
+}
+
+h5.my-card {
+    color: $grey-color;
+}

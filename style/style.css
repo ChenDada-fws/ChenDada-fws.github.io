@@ -81,7 +81,7 @@ section.second div.card h5.card-title {
 }
 
 footer {
-  background-color: #ffdaa2;
+  background-color: #ffd595;
 }
 
 footer div.container ul li a {
@@ -89,7 +89,7 @@ footer div.container ul li a {
 }
 
 footer span {
-  color: #a1a1a1;
+  color: #8d8d8d;
 }
 
 .featurette-divider {
@@ -122,5 +122,31 @@ footer span {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+img#muntjac {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 60% bottom;
+     object-position: 60% bottom;
+}
+
+img#boss {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 60% bottom;
+     object-position: 60% bottom;
+}
+
+a.google-sheet {
+  color: white !important;
+}
+
+h5.my-card-active {
+  color: #D48000;
+}
+
+h5.my-card {
+  color: #7a7a7a;
 }
 /*# sourceMappingURL=style.css.map */
